@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngCounsel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/Logo Ayang 2-Photoroom (1).png" alt="Logo Universitas Ciputra">
+            </div>
+            <ul class="menu-center">
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown"><a href="#">Program <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="english-for-kids.html">ENGLISH FOR KIDS</a>
+                    <a href="speaking-class.html">SPEAKING CLASS</a>
+                    <a href="consult-your-task.html">CONSULT YOUR TASK!</a>
+                </div>
+                </li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <button id="searchToggle" class="search-button" aria-label="Buka Pencarian"><i class="fas fa-search"></i></button>
+                <div id="searchBox" class="search-box">
+                    <form action="/search" method="GET">
+                        <input type="text" id="searchInput" name="q" placeholder="Cari di situs ini...">
+                        <button type="submit">Telusuri</button>
+                    </form>
+                    <button id="closeSearch" class="close-search" aria-label="Tutup Pencarian">&times;</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <button class="prev-image-button">&#10094;</button>
+            <img id="heroImage" src="images/pexels-pavel-danilyuk-7120874-3376909408.webp" alt="Hero Image">
+            <button class="next-image-button">&#10095;</button>
+        </section>
+        <section class="banner">
+            <img id="bannerImage" src="images/Beranda - Google Chrome 08_07_2024 11_03_57.png" alt="Banner Image">
+        </section>
+        <section class="content">
+            <center><h2>Learn About our Program</h2></center>
+            <div class="news-grid">
+                <article data-aos="fade-up">
+                    <img src="images/P1.jpg" alt="Berita 1">
+                    <a href="english-for-kids.html"><h3>ENGLISH FOR KIDS</h3></a>
+                    <p></p>
+                </article>
+                <article data-aos="fade-up">
+                    <img src="images/P2.jpg" alt="Berita 2">
+                    <a href="speaking-class.html"><h3>SPEAKING CLASS</h3></a>
+                    <p></p>
+                </article>
+                <article data-aos="fade-up">
+                    <img src="images/P3.jpg" alt="Berita 3">
+                    <a href="consult-your-task.html"><h3>CONSULT YOUR TASK!</h3></a>
+                    <p></p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 EngCounsel. All rights reserved.</p>
+            <div class="socials">
+                <a href="https://www.google.com/url?q=https%3A%2F%2Finstagram.com%2Fengcounsel%3Figshid%3DYmMyMTA2M2Y%3D&sa=D&sntz=1&usg=AOvVaw1rzPZFn0UmyHtOvGXQAqkF"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@englishcounsel/featuredhttps://www.youtube.com/@englishcounsel/featured"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
